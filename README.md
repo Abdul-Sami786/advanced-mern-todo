@@ -45,6 +45,10 @@ An advanced **AI-Powered Todo Dashboard** built with the **MERN stack**. Feature
 ![Add Task Form](screenshots/add-task.png)  
 ![Stats Panel](screenshots/stats.png)
 
+![Dark Mode Dashboard](screenshots/dark-mode-dashboard.png)
+![Login Page](screenshots/login.png)
+![Register Page](screenshots/register.png)
+
 ---
 
 ## 🚀 Installation & Setup
