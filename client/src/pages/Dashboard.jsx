@@ -72,7 +72,7 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="min-h-screen w-full overflow-x-hidden theme-transition bg-linear-to-br from-gray-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 text-gray-900 dark:text-gray-100 transition-all duration-300">
+    <div className="min-h-screen w-full theme-transition bg-linear-to-br from-gray-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 text-gray-900 dark:text-gray-100 transition-all duration-300">
       <div className="mx-auto max-w-7xl p-3 sm:p-4 md:p-6">
       {/* Responsive Header */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 sm:mb-8">
