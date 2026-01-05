@@ -4,12 +4,15 @@ import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import todoRoutes from "./routes/todoRoutes.js";
+import compression from "compression";
 
 dotenv.config();
 
 connectDB();
 
 const app = express();
+
+app.use(compression());
 
 app.use(cors({
   origin: [
