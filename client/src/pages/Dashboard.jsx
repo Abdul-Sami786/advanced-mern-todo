@@ -72,7 +72,8 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="min-h-screen min-w-screen theme-transition p-3 sm:p-4 md:p-6 max-w-7xl mx-auto bg-linear-to-br from-gray-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 text-gray-900 dark:text-gray-100 transition-all duration-300">
+    <div className="min-h-screen w-full overflow-x-hidden theme-transition bg-linear-to-br from-gray-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 text-gray-900 dark:text-gray-100 transition-all duration-300">
+      <div className="mx-auto max-w-7xl p-3 sm:p-4 md:p-6">
       {/* Responsive Header */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 sm:mb-8">
         <div className="w-full sm:w-auto">
@@ -187,7 +188,7 @@ export default function Dashboard() {
               </h2>
             </div>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-4 sm:mb-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-4 sm:mb-6 ">
               <div className="space-y-3 sm:space-y-4">
                 <div>
                   <label className="block text-xs sm:text-sm font-semibold mb-1 sm:mb-2 text-gray-600 dark:text-gray-400">Task Title *</label>
@@ -499,6 +500,7 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
