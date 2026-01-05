@@ -7,10 +7,7 @@ import todoRoutes from "./routes/todoRoutes.js";
 
 dotenv.config();
 
-
 connectDB();
-
-
 
 const app = express();
 
